@@ -4,11 +4,13 @@
   "description": "sample hello world node js program for jenkins ci/cd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "pallavi suresh",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.9.0"
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
   }
 }
